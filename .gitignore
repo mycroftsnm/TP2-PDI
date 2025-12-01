@@ -1,0 +1,7 @@
+# --- UV y Entorno Virtual ---
+.venv/
+uv.lock
+.python-version
+pyproject.toml
+informe.py
+informe.ipynb
