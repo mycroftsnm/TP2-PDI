@@ -4,7 +4,7 @@
 Este repositorio contiene dos scripts desarrollados en Python para la detección y clasificación de objetos mediante técnicas de visión artificial utilizando la librería OpenCV.
 
 ## Ejecución de los scripts
-Ambos scripts se pueden ejecutar enteramente. 
+Ambos scripts se pueden ejecutar enteramente en conjunto con las imágenes sobre las que hará las detecciones. 
 Los scripts asumen la existencia de los archivos de entrada `monedas.jpg` (problema1.py) y archivos que cumplan el patrón `img*.png` (problema2.py) en el directorio de ejecución.
 Todas las imágenes están suministradas en el repositorio mismo. Pueden intercambiarse por otras pero se debe respetar el patrón de nombres mencionado anteriormente.
 
