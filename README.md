@@ -1,6 +1,14 @@
 # README
-Enmarcado en el contexto de la resolución del Trabajo Práctico N°2 de la materia Procesamiento de Imágenes 1, de TUIA, FCEIA, UNR.
+## Trabajo Práctico N°2, Procesamiento de Imágenes 1, de TUIA, FCEIA, UNR.
+
 Este repositorio contiene dos scripts desarrollados en Python para la detección y clasificación de objetos mediante técnicas de visión artificial utilizando la librería OpenCV.
+
+## Ejecución de los scripts
+Ambos scripts se pueden ejecutar enteramente. 
+Los scripts asumen la existencia de los archivos de entrada `monedas.jpg` (problema1.py) y archivos que cumplan el patrón `img*.png` (problema2.py) en el directorio de ejecución.
+Todas las imágenes están suministradas en el repositorio mismo. Pueden intercambiarse por otras pero se debe respetar el patrón de nombres mencionado anteriormente.
+
+En `informe.pdf` se presenta en detalle cómo fue el desarrollo del trabajo.
 ## 1. Detección de Monedas y Dados (`problema1.py`)
 
 Implementa la detección de figuras circulares mediante la **Transformada de Hough Circular (HoughCircles)**. El algoritmo se divide en dos fases lógicas sobre la misma imagen de entrada (`monedas.jpg`):
@@ -22,5 +30,3 @@ Implementa un algoritmo de segmentación y reconocimiento de patrones para local
 * NumPy
 * Matplotlib
 
-**Nota de ejecución:**
-Los scripts asumen la existencia de los archivos de entrada `monedas.jpg` (problema1.py) y archivos que cumplan el patrón `img*.png` (problema2.py) en el directorio de ejecución.
